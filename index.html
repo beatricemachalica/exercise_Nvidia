@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <title>Nvidia</title>
 </head>
 
@@ -11,7 +13,7 @@
     <!-- partie header : logo et navigation -->
     <header>
         <a href="#"><img src="img/logo1.jpg" alt="logo de Nvidia"></a>
-        <nav>
+        <nav class="mainNav flex">
             <a href="#">Produits</a>
             <a href="#">Gamme RTX</a>
             <a href="#">Support & Pilotes</a>
@@ -30,7 +32,7 @@
     </section>
     <!-- Main article -->
     <section class="mainContent">
-        <article class="mainArticle">
+        <article class="mainArticle flex">
             <div>
                 <img src="img/miniLogo3.png" alt="petit logo Nvidia">
                 <h2>LA PUISSANCE, TOUT SIMPLEMENT.</h2>
@@ -62,7 +64,7 @@
             </p>
         </article>
         <!-- aside "about" -->
-        <aside class="aPropos">
+        <aside class="aPropos flex">
             <h2>A PROPOS</h2>
             <img src="img/logo2.png" alt="logo de Nvidia">
             <p>                
@@ -74,7 +76,7 @@
             </p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <p>Tenetur suscipit quia saepe.</p>
-            <div class="linksApropos">
+            <div class="linksApropos flex">
                 <!-- FB link -->
                 <a href="#"></a>
                 <!-- Twitter link -->
@@ -91,7 +93,7 @@
     <!-- green arrow load more -->
     <div class="greenArrow"></div>
     <!-- footer -->
-    <footer>
+    <footer class="footer flex">
         <section class="newsletter">
             <h3>Newsletter</h3>
             <form action="#" method="GET">
@@ -99,7 +101,7 @@
                 <input type="email" name="email" id="email" value="Email" required>
             </form>
         </section>
-        <section class="galerie">
+        <section class="galerie flex">
             <h3>Galerie</h3>
             <figure>
                 <img src="img/logo4.png" alt="logo de Nvidia">
@@ -114,7 +116,7 @@
                 <img src="img/photo3GeForce.jpg" alt="photo GeForce RTX">
             </figure>
         </section>
-        <section class="partenaires">
+        <section class="partenaires flex">
             <h3>Partenaires</h3>
             <a href="#"><img src="img/logoIntel.jpg" alt="logo d'Intel"></a>
             <a href="#"><img src="img/logoAsus.png" alt="logo d'Asus"></a>
