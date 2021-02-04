@@ -149,11 +149,19 @@ figcaption a{
 /* footer style */
 footer{
     margin-top: 30px;
+    justify-content: space-between;
+}
+footer section{
+    width: calc(100%/3);
 }
 /* Newsletter style */
 input[type=text],[type=email]{
     padding: 10px;
     margin: 0 3px 8px 0;
+    width: 50%;
+}
+form{
+    flex-direction: column;
 }
 /* submit button */
 .greenButton2{
@@ -162,7 +170,8 @@ input[type=text],[type=email]{
 	cursor:pointer;
 	color:#ffffff;
 	font-size: 15px;
-	padding: 5px;
+    padding: 5px;
+    width: 35%;
 }
 .greenButton2:hover {
 	background-color:#5cbf2a;
@@ -178,6 +187,11 @@ input[type=text],[type=email]{
     width: 88px;
 }
 /* galery style */
+.galerie img{
+    width: 83px;
+    height: 83px;
+    margin-right: 10px;
+}
 .photoGalerie{
     cursor: pointer;
     transition: 0.3s;
