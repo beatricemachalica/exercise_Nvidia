@@ -177,3 +177,11 @@ input[type=text],[type=email]{
 .imagesPartenaires{
     width: 88px;
 }
+/* galery style */
+.photoGalerie{
+    cursor: pointer;
+    transition: 0.3s;
+}
+.photoGalerie:hover{
+    opacity: 0.7;
+}
