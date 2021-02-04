@@ -71,7 +71,6 @@ figcaption a{
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Arial;
 	font-size: 20px;
 	padding:10px 12px;
     text-decoration:none;
@@ -151,6 +150,30 @@ figcaption a{
 footer{
     margin-top: 30px;
 }
-footer section{
-    border: 1px solid black;
+/* Newsletter style */
+input[type=text],[type=email]{
+    padding: 10px;
+    margin: 0 3px 8px 0;
+}
+/* submit button */
+.greenButton2{
+	background-color:#76B900;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size: 15px;
+	padding: 5px;
+}
+.greenButton2:hover {
+	background-color:#5cbf2a;
+}
+.greenButton2:active {
+	position:relative;
+	top:1px;
+}
+.partenairesContainer{
+    justify-content: space-around;
+}
+.imagesPartenaires{
+    width: 88px;
 }
