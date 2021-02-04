@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     <title>Nvidia</title>
@@ -11,8 +13,8 @@
 
 <body>
     <!-- partie header : logo et navigation -->
-    <header>
-        <a href="#"><img src="img/logo1.jpg" alt="logo de Nvidia"></a>
+    <header class="flex">
+        <a class="logoHeader" href="#"><img src="img/logo1.jpg" alt="logo de Nvidia"></a>
         <nav class="mainNav flex">
             <a href="#">Produits</a>
             <a href="#">Gamme RTX</a>
@@ -23,26 +25,30 @@
     <!-- banner section -->
     <section class="banniere">
         <figure>
-            <img src="img/banniere.jpg" alt="banniere carte graphique RTX">
-            <figcaption>
+            <img class="imageBanniere" src="img/banniere2.jpg" alt="banniere carte graphique RTX">
+            <figcaption class="flex">
                 Plus d'information sur la gamme GeForce RTX
-                <a href="#">Découvrir</a>
+                <a href="#" class="greenButton">Découvrir</a>
             </figcaption>
         </figure>
     </section>
     <!-- Main article -->
-    <section class="mainContent">
+    <section class="mainContent flex">
         <article class="mainArticle flex">
-            <div>
-                <img src="img/miniLogo3.png" alt="petit logo Nvidia">
-                <h2>LA PUISSANCE, TOUT SIMPLEMENT.</h2>
-            </div>
+            <h2><img class="miniLogo" src="img/miniLogo3.png" alt="petit logo Nvidia"> LA PUISSANCE, TOUT SIMPLEMENT.</h2>
             <p>                
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Doloremque ducimus eos earum iste ab animi reiciendis
                 eum modi sapiente cupiditate vero, laboriosam repudiandae
-                expedita voluptate tempora?
+                expedita voluptate tempora? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloremque ducimus eos earum iste ab animi reiciendis
+                eum modi sapiente cupiditate vero, laboriosam repudiandae
+                expedita voluptate tempora? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, dolores?
                 Tenetur suscipit quia saepe.
+                Tenetur suscipit quia saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloremque ducimus eos earum iste ab animi reiciendis
+                eum modi sapiente cupiditate vero, laboriosam repudiandae
+                expedita voluptate tempora?
                 Doloremque ducimus eos earum iste ab animi reiciendis
                 eum modi sapiente cupiditate vero, laboriosam repudiandae
                 expedita voluptate tempora?
@@ -52,7 +58,8 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Doloremque ducimus eos earum iste ab animi reiciendis
                 eum modi sapiente cupiditate vero, laboriosam repudiandae
-                expedita voluptate tempora?
+                expedita voluptate tempora? Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Fuga architecto sit facere in perspiciatis dicta? Laboriosam eaque quae accusantium alias!
                 Tenetur suscipit quia saepe.
             </p>
             <p>                
@@ -60,13 +67,16 @@
                 Doloremque ducimus eos earum iste ab animi reiciendis
                 eum modi sapiente cupiditate vero, laboriosam repudiandae
                 expedita voluptate tempora?
-                Tenetur suscipit quia saepe.
+                Tenetur suscipit quia saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Esse beatae incidunt saepe laborum nemo, alias optio excepturi debitis iusto at? Ratione placeat, 
+                mollitia facilis accusantium omnis repellendus voluptatem repudiandae accusamus esse sint fuga. 
+                Saepe iusto tempore, nulla veritatis labore corporis?
             </p>
         </article>
-        <!-- aside "about" -->
+        <!-- aside article "about" -->
         <aside class="aPropos flex">
             <h2>A PROPOS</h2>
-            <img src="img/logo2.png" alt="logo de Nvidia">
+            <img class="logoAbout" src="img/logo2.png" alt="logo de Nvidia">
             <p>                
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Doloremque ducimus eos earum iste ab animi reiciendis
