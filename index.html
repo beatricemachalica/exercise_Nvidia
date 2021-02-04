@@ -137,17 +137,23 @@
         <section class="galerie">
             <h3>Galerie</h3>
             <div class="galeryContainer flex">
+                <!-- image du logo pas de modale -->
                 <figure>
                     <img src="img/logo4.png" alt="logo de Nvidia">
                 </figure>
                 <figure>
-                    <img class="photoGalerie" src="img/photo1GeForce.jpg" alt="photo GeForce RTX">
+                    <img class="photoGalerie" id="myImg" src="img/photo1GeForce.jpg" alt="photo GeForce RTX">
+                </figure>
+                <!-- modale de l'image 1 -->
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                </div>
+                <figure>
+                    <img class="photoGalerie" id="myImg2" src="img/photo2GeForce.png" alt="photo GeForce RTX">
                 </figure>
                 <figure>
-                    <img class="photoGalerie" src="img/photo2GeForce.png" alt="photo GeForce RTX">
-                </figure>
-                <figure>
-                    <img class="photoGalerie" src="img/photo3GeForce.jpg" alt="photo GeForce RTX">
+                    <img class="photoGalerie" id="myImg3" src="img/photo3GeForce.jpg" alt="photo GeForce RTX">
                 </figure>
             </div>
         </section>
@@ -165,4 +171,5 @@
     </footer>
 </body>
 <script src="js/app.js"></script>
+
 </html>
