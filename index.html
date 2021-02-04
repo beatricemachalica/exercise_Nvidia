@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     <title>Nvidia</title>
@@ -35,8 +39,9 @@
     <!-- Main article -->
     <section class="mainContent flex">
         <article class="mainArticle flex">
-            <h2><img class="miniLogo" src="img/miniLogo3.png" alt="petit logo Nvidia"> LA PUISSANCE, TOUT SIMPLEMENT.</h2>
-            <p>                
+            <h2><img class="miniLogo" src="img/miniLogo3.png" alt="petit logo Nvidia"> LA PUISSANCE, TOUT SIMPLEMENT.
+            </h2>
+            <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Doloremque ducimus eos earum iste ab animi reiciendis
                 eum modi sapiente cupiditate vero, laboriosam repudiandae
@@ -54,22 +59,22 @@
                 expedita voluptate tempora?
                 Tenetur suscipit quia saepe.
             </p>
-            <p>                
+            <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Doloremque ducimus eos earum iste ab animi reiciendis
                 eum modi sapiente cupiditate vero, laboriosam repudiandae
-                expedita voluptate tempora? Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                expedita voluptate tempora? Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Fuga architecto sit facere in perspiciatis dicta? Laboriosam eaque quae accusantium alias!
                 Tenetur suscipit quia saepe.
             </p>
-            <p>                
+            <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Doloremque ducimus eos earum iste ab animi reiciendis
                 eum modi sapiente cupiditate vero, laboriosam repudiandae
                 expedita voluptate tempora?
-                Tenetur suscipit quia saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Esse beatae incidunt saepe laborum nemo, alias optio excepturi debitis iusto at? Ratione placeat, 
-                mollitia facilis accusantium omnis repellendus voluptatem repudiandae accusamus esse sint fuga. 
+                Tenetur suscipit quia saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Esse beatae incidunt saepe laborum nemo, alias optio excepturi debitis iusto at? Ratione placeat,
+                mollitia facilis accusantium omnis repellendus voluptatem repudiandae accusamus esse sint fuga.
                 Saepe iusto tempore, nulla veritatis labore corporis?
             </p>
         </article>
@@ -77,7 +82,7 @@
         <aside class="aPropos flex">
             <h2>A PROPOS</h2>
             <img class="logoAbout" src="img/logo2.png" alt="logo de Nvidia">
-            <p>                
+            <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Doloremque ducimus eos earum iste ab animi reiciendis
                 eum modi sapiente cupiditate vero, laboriosam repudiandae
@@ -88,49 +93,58 @@
             <p>Tenetur suscipit quia saepe.</p>
             <div class="linksApropos flex">
                 <!-- FB link -->
-                <a href="#"></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
                 <!-- Twitter link -->
-                <a href="#"></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
                 <!-- Instagram link -->
-                <a href="#"></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
                 <!-- Snapchat link -->
-                <a href="#"></a>
+                <a href="#"><i class="fab fa-snapchat-ghost"></i></a>
                 <!-- Linkedin link -->
-                <a href="#"></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
             </div>
         </aside>
     </section>
     <!-- green arrow load more -->
-    <div class="greenArrow"></div>
+    <div class="greenBorder"></div>
+    <div class="arrowContainer">
+        <div class="greenArrow"></div>
+    </div>
     <!-- footer -->
     <footer class="footer flex">
         <section class="newsletter">
             <h3>Newsletter</h3>
-            <form action="#" method="GET">
-                <input type="text" name="nom" id="nom" value="Nom" required>
-                <input type="email" name="email" id="email" value="Email" required>
-            </form>
+            <div class="newsletterContainer">
+                <form action="#" method="GET">
+                    <input type="text" name="nom" id="nom" value="Nom" required>
+                    <input type="email" name="email" id="email" value="Email" required>
+                </form>
+            </div>
         </section>
-        <section class="galerie flex">
+        <section class="galerie">
             <h3>Galerie</h3>
-            <figure>
-                <img src="img/logo4.png" alt="logo de Nvidia">
-            </figure>
-            <figure>
-                <img src="img/photo1GeForce.jpg" alt="photo GeForce RTX">
-            </figure>
-            <figure>
-                <img src="img/photo2GeForce.png" alt="photo GeForce RTX">
-            </figure>
-            <figure>
-                <img src="img/photo3GeForce.jpg" alt="photo GeForce RTX">
-            </figure>
+            <div class="galeryContainer flex">
+                <figure>
+                    <img src="img/logo4.png" alt="logo de Nvidia">
+                </figure>
+                <figure>
+                    <img src="img/photo1GeForce.jpg" alt="photo GeForce RTX">
+                </figure>
+                <figure>
+                    <img src="img/photo2GeForce.png" alt="photo GeForce RTX">
+                </figure>
+                <figure>
+                    <img src="img/photo3GeForce.jpg" alt="photo GeForce RTX">
+                </figure>
+            </div>
         </section>
-        <section class="partenaires flex">
+        <section class="partenaires">
             <h3>Partenaires</h3>
-            <a href="#"><img src="img/logoIntel.jpg" alt="logo d'Intel"></a>
-            <a href="#"><img src="img/logoAsus.png" alt="logo d'Asus"></a>
-            <a href="#"><img src="img/logoEA.png" alt="logo de EA"></a>
+            <div class="partenairesContainer">
+                <a href="#"><img src="img/logoIntel.jpg" alt="logo d'Intel"></a>
+                <a href="#"><img src="img/logoAsus.png" alt="logo d'Asus"></a>
+                <a href="#"><img src="img/logoEA.png" alt="logo de EA"></a>
+            </div>
         </section>
     </footer>
 </body>
